@@ -53,3 +53,17 @@ function calculateTax(amount, taxRate) {
 }
 calculateTax(1000, 15); 
 
+// Task 9: Function Express
+const applyDiscount = function(price, discount) {
+    const discountedPrice = price - (price * (discount / 100)); // Calculates Discounted Price
+    console.log(`Discounted Price: $${discountedPrice}`); // Displays Price
+    return discountedPrice;
+};
+applyDiscount(200, 10); // Test
+
+
+
+
+
+
+

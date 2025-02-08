@@ -40,3 +40,8 @@ const sales = [500, 300, 200, 400];
 const totalRevenue = sales.reduce((total , sale) => total + sale, 0); // Calculates Total Revenue
 console.log(totalRevenue);
 
+// Task 7: find() Method
+const customers = ["Alice", "Bob", "Charlie", "David"];
+const foundCustomer = customers.find(customer => customer === "Charlie") // Locate "Charlie"
+console.log(foundCustomer);
+

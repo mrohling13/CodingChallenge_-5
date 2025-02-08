@@ -17,3 +17,11 @@ const order = {
 };
 order.displayOrder();
 
+// Task 3: Array Manipulation
+let cartItems = ["Rick Owen shoes", "Balenci Jeans", "Vetements T-shirt"]; // Listing cart items
+cartItems.push("Chrome Hearts Hat") // Adding a new product
+cartItems.pop(); // Removes the last cart item
+cartItems.unshift("Supreme Socks"); // Adds item to the start
+cartItems.shift(); // Remove the first item
+console.log(cartItems);
+

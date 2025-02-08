@@ -61,7 +61,13 @@ const applyDiscount = function(price, discount) {
 };
 applyDiscount(200, 10); // Test
 
-
+// Task 10: Arrow Function
+const calculatePoints = (purchaseAmount) => {
+    const points = Math.floor(purchaseAmount / 10); // Calculates Points
+    console.log(`Loyalty Points: ${points}`);
+    return points;
+};
+calculatePoints(120); // Test
 
 
 
